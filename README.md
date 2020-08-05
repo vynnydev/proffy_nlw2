@@ -181,7 +181,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signup/proffy-homepage.png">
+  <img alt="Layout" src="./github/main-image/homepage/proffy-homepage.png">
 </p>
 
 
@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signup/proffy-homepage.png">
+  <img alt="Layout" src="./github/main-image/homepage/proffy-homepage.png">
 </p>
 
 <p align="center">
