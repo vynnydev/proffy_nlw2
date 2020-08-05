@@ -5,7 +5,7 @@
 </a>
 <br/>
 <h1 align="center">
-  <img alt="Layout" src="github/main-image/mainpage/proffy-mainpage.png">
+  <img alt="Layout" src="./github/main-images/mainpage/proffy-mainpage.png">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the Proffy project.</h1>
@@ -178,10 +178,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </br>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
+  <img alt="Layout" src="./github/main-images/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/homepage/proffy-homepage.png">
+  <img alt="Layout" src="./github/main-images/homepage/proffy-homepage.png">
 </p>
 
 
@@ -273,10 +273,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">Mobile app still not developed</p>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
+  <img alt="Layout" src="./github/main-images/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/homepage/proffy-homepage.png">
+  <img alt="Layout" src="./github/main-images/homepage/proffy-homepage.png">
 </p>
 
 <p align="center">
