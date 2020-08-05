@@ -1,38 +1,42 @@
 import React from 'react'
 
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
-import avatar from '../../assets/images/vini.jpeg'
+import { TeacherItemComponent } from './styles'
 
-import './styles.css'
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 const TeacherItem: React.FC = () => {
   return (
-    <article className="teacher-item">
+    <TeacherItemComponent>
       <header>
-        <img src={avatar} alt="avatar" />
+        <img
+          src="https://avatars3.githubusercontent.com/u/45184364?s=460&u=cfac92d4197bedf804d9df43933201e1f4a0dd45&v=4"
+          alt="vynnydev"
+        />
         <div>
-          <strong>Vinicius Prudencio</strong>
-          <span>Quimica</span>
+          <strong>Vini Dev</strong>
+          <span>Investimentos</span>
         </div>
       </header>
 
       <p>
-        Entusiasta das melhores tecnologias de quimica avançada.
-        <br></br>
-        Apaixonado por explodir coisas em laboratório e por mudar
-        a vida 
+        Entusiasta dos por tecnologias de desenvolvimento.
+        <br />
+        <br />
+        Apaixonado pelas linguagens JavaScript e TypeScript e por suas tecnologias Node, 
+        React, React Native que compõe e backend, frontend e mobile maravilhosamente!!
       </p>
+
       <footer>
         <p>
           Preço/hora
           <strong>R$ 80,00</strong>
         </p>
         <button type="button">
-          <img src={whatsappIcon} alt="whatsapp"/>
-            Entrar em contato
+          <img src={whatsappIcon} alt="Whatsapp" />
+          Entrar em contato
         </button>
       </footer>
-    </article>
+    </TeacherItemComponent>
   )
 }
 

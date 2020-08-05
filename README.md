@@ -1,8 +1,12 @@
 <h1 align="center">Yet in development!</h1>
 
 <a align="center">
-  Aplicação desenvolvida na segunda ediçao do NLW.
+  Aplicação desenvolvida na segunda ediçao do NLW com Dark Mode.
 </a>
+<br/>
+<h1 align="center">
+  <img alt="Layout" src="./github/main-images/gif/proffy-video.gif">
+</h1>
 <br/>
 <h1 align="center">
   <img alt="Layout" src="./github/main-images/mainpage/proffy-mainpage.png">
@@ -93,14 +97,7 @@ $ yarn
 # and set with YOUR environment variables.
 $ cp .env.example .env
 
-# Start the services with docker-compose
-$ docker-compose up -d
-
-# Once the services are running, run the migrations
-$ yarn typeorm migration:run
-
 # Well done, project is started!```
-
 
 ## 🤔 How to contribute
 
@@ -197,7 +194,7 @@ Technologies that I used to develop this web client
 - [React Icons](https://react-icons.netlify.com/#/)
 - [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
 - [Yup](https://github.com/jquense/yup)
-- [CSS3](https://github.com/css)
+- [Styled-components](https://github.com/styled-components)
 - [Axios](https://github.com/axios/axios)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
@@ -320,7 +317,7 @@ Technologies that I used to develop this mobile client
 - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 - [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
 - [Yup](https://github.com/jquense/yup)
-- [CSS3](https://github.com/css)
+- [Styled-components](https://github.com/styled-components)
 - [Axios](https://github.com/axios/axios)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
