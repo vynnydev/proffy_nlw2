@@ -5,7 +5,7 @@
 </a>
 <br/>
 <h1 align="center">
-  <img alt="Layout" src="./github/main-image/gif/powerstaffs-video.gif">
+  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the Proffy project.</h1>
@@ -49,9 +49,9 @@
 
 ## 💇🏻‍♂️ About the project
 
-<p align="center">PowerStaffs - We seek efficiency at all times!</p>
+<p align="center">Proffy - The best experience for your best learning!</p>
 
-This api is manage Gamenoover app, developed with Typescript, NodeJs, Express, TypeORM, Postgres e JWT.
+This api is manage Proffy app, developed with Typescript, NodeJs, Express, Knex and SQLite.
 
 ## 🚀 Technologies
 
@@ -60,20 +60,8 @@ Technologies that I used to develop this api
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+- [Knex](https://github.com/knex)
+- [SQLite](https://github.com/sqlite)
 
 ## 💻 Getting started
 
@@ -83,14 +71,14 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- One instance of [PostgreSQL](https://www.postgresql.org/)
+- One instance of [SQLite](https://www.sqlite.org/index.html)
 
 > Obs.: I recommend use docker
 
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/vynnydev/powerstaffs.git && cd powerstaffs
+$ git clone https://github.com/vynnydev/proffy_nlw2.git && cd proffy_nlw2
 
 Go to the backend folder to access the API
 ```
@@ -122,14 +110,14 @@ $ yarn typeorm migration:run
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork vynnydev/powerstaffs
+$ gh repo fork vynnydev/proffy_nlw2
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd powerstaffs
+$ git clone your-fork-url && cd proffy_nlw2
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -154,10 +142,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <h1>Frontend</h1>
 <h3 align="center">
-  ReactJS Application for PowerStaffs project
+  ReactJS Application for Proffy project
 </h3>
 
-<p align="center">PowerStaffs - We seek efficiency at all times!</p>
+<p align="center">Proffy - The best experience for your best learning!</p>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
@@ -190,13 +178,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </br>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signin/powerstaffs-signin.png">
+  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signup/powerstaffs-signup.png">
-</p>
-<p align="center">
-  <img alt="Layout" src="./github/main-image/reset-password/powerstaffs-reset-password.png">
+  <img alt="Layout" src="./github/main-image/signup/proffy-homepage.png">
 </p>
 
 
@@ -212,8 +197,7 @@ Technologies that I used to develop this web client
 - [React Icons](https://react-icons.netlify.com/#/)
 - [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
 - [Yup](https://github.com/jquense/yup)
-- [Styled Components](https://styled-components.com/)
-- [Polished](https://github.com/styled-components/polished)
+- [CSS3](https://github.com/css)
 - [Axios](https://github.com/axios/axios)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
@@ -229,7 +213,7 @@ Technologies that I used to develop this web client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/vynnydev/powerstaffs.git && cd powerstaffs
+$ git clone https://github.com/vynnydev/proffy_nlw2.git && cd web
 ```
 
 **Follow the steps below**
@@ -252,14 +236,14 @@ $ yarn start
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork vynnydev/powerstaffs
+$ gh repo fork vynnydev/proffy_nlw2
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd powerstaffs
+$ git clone your-fork-url && cd web
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -282,19 +266,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h1>Mobile</h1>
 
 <h3 align="center">
-  React Native Application for PowerStaffs project
+  React Native Application for Proffy project
 </h3>
 
-<p align="center">PowerStaffs - We seek efficiency at all times!</p>
+<p align="center">Proffy - The best experience for your best learning!</p>
+<p align="center">Mobile app still not developed</p>
 
 <p align="center">
-  <img alt="Layout" src="github/main-image/signin/powerstaffs-signin.png">
+  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="github/main-image/signup/powerstaffs-signup.png">
-</p>
-<p align="center">
-  <img alt="Layout" src="github/main-image/splashscreen/powerstaffs-splashscreen.png">
+  <img alt="Layout" src="./github/main-image/signup/proffy-homepage.png">
 </p>
 
 <p align="center">
@@ -338,7 +320,7 @@ Technologies that I used to develop this mobile client
 - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 - [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
 - [Yup](https://github.com/jquense/yup)
-- [Styled Components](https://styled-components.com/)
+- [CSS3](https://github.com/css)
 - [Axios](https://github.com/axios/axios)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
@@ -351,14 +333,14 @@ Technologies that I used to develop this mobile client
 
 ### Requirements
 
-- Have this application's [API](https://github.com/vynnydev/powerstaffs_mob) running
+- Have this application's [API](https://github.com/vynnydev/proffy_mobile) running
 
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/vynnydev/powerstaffs.git && cd powerstaffs_mob
+$ git clone https://github.com/vynnydev/proffy_nlw.git && cd proffy_mob
 OR 
-$ git clone https://github.com/vynnydev/powerstaffs_mob.git
+$ git clone https://github.com/vynnydev/proffy_mobile.git
 
 ```
 
@@ -386,7 +368,7 @@ $ yarn ios
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork vynnydev/powerstaffs
+$ gh repo fork vynnydev/proffy_mobile
 ```
 
 **Follow the steps below**
@@ -394,7 +376,7 @@ $ gh repo fork vynnydev/powerstaffs
 ```bash
 # Clone your fork
 # 
-$ git clone your-fork-url && cd powerstaffs
+$ git clone your-fork-url && cd proffy
 
 # Create a branch with your feature
 $ git checkout -b my-feature
