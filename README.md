@@ -5,7 +5,7 @@
 </a>
 <br/>
 <h1 align="center">
-  <img alt="Layout" src="./github/main-image/mainpage/proffy-mainpage.png">
+  <img alt="Layout" src="github/main-image/mainpage/proffy-mainpage.png">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the Proffy project.</h1>
