@@ -1,25 +1,25 @@
-import React from 'react'
-import { ThemeProvider, DefaultTheme } from 'styled-components'
-import usePersistedState from './utils/usePersistedState'
+import React, { useState } from 'react'
+import { ThemeProvider } from './styles/styled-components.d'
+import GlobalStyle from './styles/GlobalStyle'
+
+import AppProvider from './contexts'
 import Routes from './routes'
 
-import ThemeSwitcher from './components/ThemeSwitcher'
-import light from './styles/themes/light'
-import dark from './styles/themes/dark'
+import { LightTheme } from './styles/themes'
+import { Container } from './styles/App'
 
-import GlobalStyle from './styles/global'
+const App: React.FC = () => {
+  const [theme, setTheme] = useState(LightTheme)
 
-function App(): any {
-  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', dark)
-
-  const toggleTheme = (): void => {
-    setTheme(theme.title === 'light' ? dark : light)
-  }
   return (
     <ThemeProvider theme={theme}>
-      <Routes />
-      <ThemeSwitcher toggleTheme={toggleTheme} />
       <GlobalStyle />
+
+      <AppProvider>
+        <Container>
+          <Routes />
+        </Container>
+      </AppProvider>
     </ThemeProvider>
   )
 }

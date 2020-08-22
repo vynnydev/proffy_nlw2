@@ -1,10 +1,9 @@
 import { Request, Response } from 'express'
 
 import db from '../database/connection'
-import convertHourToMinutes from '../utils/convertHourToMinutes'
 
-export default class ConnectionControler {
-  static index = async (request: Request, response: Response) => {
+export default class ConnectionsController {
+  async index (request: Request, response: Response): Promise<Response<unknown>> {
     const totalConnections = await db('connections').count('* as total')
 
     const { total } = totalConnections[0]
@@ -12,7 +11,7 @@ export default class ConnectionControler {
     return response.json({ total })
   }
 
-  static create = async (request: Request, response: Response) => {
+  async create (request: Request, response: Response): Promise<Response<unknown>> {
     const { user_id } = request.body
 
     await db('connections').insert({

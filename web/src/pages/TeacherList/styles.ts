@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { darken } from 'polished'
 
 export const PageTeacherList = styled.div`
   width: 100vw;
@@ -7,6 +8,7 @@ export const PageTeacherList = styled.div`
 
   main {
     margin: 3.2rem auto;
+    margin-top: 40rem;
     width: 90%;
   }
 
@@ -20,59 +22,41 @@ export const PageTeacherList = styled.div`
     }
   }
 `
+
 export const SearchTeachers = styled.form`
-  margin-top: 3.2rem;
+  width: 100%;
+  /* margin-top: 3.2rem; */
+
+  button {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 3.2rem;
+
+    background: ${({ theme }) => theme.colors.themeColors.secondary};
+    color: ${({ theme }) => theme.colors.white};
+    border: 0;
+    border-radius: 0.8rem;
+    transition: background-color 0.2s;
+
+    font: 700 1.6rem Archivo;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: ${({ theme }) => darken(0.1, theme.colors.themeColors.secondary)};
+  }
 
   @media (min-width: 700px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
     position: absolute;
-    bottom: -28px;
-  }
-`
-
-export const InputBlock = styled.div`
-  label {
-    color: ${props => props.theme.colors.textInPrimary};
-  }
-
-  position: relative;
-
-  label {
-    font-size: 1.4rem;
-  }
-
-  input {
-    width: 100%;
-    height: 5.6rem;
-    margin-top: 0.8rem;
-    border-radius: 0.8rem;
-    background: ${props => props.theme.colors.inputBackground};
-    border: 1px solid ${props => props.theme.colors.lineInWhite};
-    outline: 0;
-    padding: 0 1.6rem;
-    font: 1.6rem Archivo;
-  }
-
-  &:focus-within::after {
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    content: '';
-    background: ${props => props.theme.colors.primaryLight};
-    position: absolute;
-    left: 1.6rem;
-    right: 1.6rem;
-    bottom: 0;
-  }
-
-  & + & {
-    margin-top: 1.4rem;
-  }
-
-  @media (min-width: 700px) {
-    & + & {
-      margin-top: 0;
-    }
+    /* bottom: -28px; */
   }
 `

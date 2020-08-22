@@ -1,12 +1,13 @@
 import Knex from 'knex'
 
-export async function up(knex: Knex) {
+export async function up (knex: Knex): Promise<unknown> {
+  // criar tabela
   return knex.schema.createTable('class_schedule', table => {
-    table.increments('id').primary();
+    table.increments('id').primary()
 
-    table.integer('week_day').notNullable();
-    table.integer('from').notNullable();
-    table.integer('to').notNullable();
+    table.integer('week_day').notNullable()
+    table.integer('from').notNullable()
+    table.integer('to').notNullable()
 
     table.integer('class_id')
       .notNullable()
@@ -17,6 +18,7 @@ export async function up(knex: Knex) {
   })
 }
 
-export async function down(knex: Knex) {
+export async function down (knex: Knex): Promise<unknown> {
+  // voltar atrás (deletar tabela)
   return knex.schema.dropTable('class_schedule')
 }
